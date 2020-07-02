@@ -25,7 +25,6 @@ namespace StarChart.Controllers
             {
                 return NotFound();
             }
-            _context.CelestialObjects.
             return Ok(obj);
         }
         [HttpGet("{name}")]
